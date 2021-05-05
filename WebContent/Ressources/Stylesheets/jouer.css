@@ -1,0 +1,77 @@
+/* le corps de la page */
+body {
+  background: url('../Images/fontjeux') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+td /* Toutes les cellules des tableaux... */
+{
+    border: 1px solid black; /* auront une bordure de 1px */
+    width:80px;
+    height:60px;
+
+}
+.controle, .modif_temps{
+
+-moz-border-radius:10px 0;
+-webkit-border-radius:10px 0;
+border-radius:10px 0;
+margin-right:10px;
+}
+
+.label{
+font-style: Helvetica;
+font-family:sans-serif;
+margin-right:10px;
+}
+
+.saisie-mot{
+  weight:300px;
+  text-align: center;
+}
+.debut{
+	margin:auto;
+	text-align: center;
+}
+
+.grille{
+  weight:300px;
+  margin:auto;
+  font-size:32px;
+  font-weight:bold;
+}
+
+.mode{
+  font-size:20px;
+  font-weight:600;
+}
+
+.mode>span{
+  margin-right:20px;
+  margin-left:20px;
+  border:solid 1px #067910;
+  border-radius: 5px;
+  padding:5px;
+}
+
+.mode>span:hover{
+  cursor:pointer;
+  background-color:#067910;
+  color:white;
+}
+
+.selection {
+  background-color:#067910;
+  color:white;
+}
+.timer{
+	font-style:Helvetica;
+}
+#resultat{
+  color:red;
+  display:none;
+  font-style:italic;
+}
